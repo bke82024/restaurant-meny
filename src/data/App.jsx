@@ -1,12 +1,13 @@
-import "../styles/App.css";
-import MenuLayout from "./components/MenuLayout.jsx";
-import menu from "./data/menu.jsx";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
 function App() {
+
   return (
-    <>
-      <MenuLayout menu={menu} />
-    </>
-  );
+    <div className='restaurant-menu'></div>
+  )
 }
 
-export default App;
+export default App
